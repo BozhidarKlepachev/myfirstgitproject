@@ -55,7 +55,7 @@ public class homeWork2 {
 
         switch (day) {
             case 1:
-                System.out.println("The " + day + "firest day of the week is Monday");
+                System.out.println("The " + day + "first day of the week is Monday");
                 break;
             case 2:
                 System.out.println("The " + day + "second day of the week is Tuesday");
@@ -139,14 +139,10 @@ public class homeWork2 {
 
     public static void printLargestNumber() {
         int[] arr = {2, 11, 45, 9};
-        //int[] arr = {-3, -5, -2, -4};
-        //int[] arr = {-23, -1, -4, -5, 0};
 
         int largestNumber = arr[0];
         int i;
 
-        // Traverse array elements from second and
-        // compare every element with current max
         for (i = 1; i < arr.length; i++) {
             if (arr[i] > largestNumber) largestNumber = arr[i];
         }
